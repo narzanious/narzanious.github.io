@@ -1,0 +1,421 @@
+html, body {
+  height: 100%;
+  font-family: sans-serif, serif;
+} 
+
+body {
+  position: relative;
+  color: #555;
+}
+
+h3, h4 {
+  color: black;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 5px 0 20px;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 18px;
+}
+
+.navbar-inverse .navbar-nav .active {
+  border-bottom: 2px solid #0099cc;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: transparent;
+}
+
+.navbar-header .navbar-brand {
+  font-family: 'Montserrat';
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.status-header {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 5px 0 15px;
+}
+.navbar {
+  background-color: transparent;
+  margin-bottom: 0px;
+  border: white;
+}
+
+.section {
+  text-align: center;
+  min-height: 100%;
+  height: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+}
+
+#section-one {
+  text-align: center;
+  color: white;
+  min-height: 100%;
+  height: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+  background-color: #0099cc;
+  /*background-image: url("../img/birch.jpg");*/
+  background-repeat: no-repeat;
+}
+
+#section-one h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+#section-one p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.starter-template {
+  padding-top: 20%;
+}
+#portfolio {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#mystatus {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #F5F5F5;
+}
+
+#resume {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.blurish {
+  font-weight: 700;
+  color: #C4C4C4;
+  font-size: 17px;
+}
+
+.things .blurish {
+  font-weight: 700;
+  color: #C4C4C4;
+  font-size: 17px;
+}
+
+#portfolio .skills h5 {
+  padding-bottom: 6%;
+  padding-top: 2%;
+  font-size: 18px;
+  color: #555;
+}
+
+#portfolio .skills ul {
+  padding-left: 0px;
+}
+#portfolio .skills ul > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#portfolio .skills ul>li>a>i {
+  color: #555;
+}
+
+#portfolio .skills ul>li>a>i:hover {
+  color: #0099cc;
+}
+
+#portfolio .skills p {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+#portfolio .skills h5 {
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  line-height: 1.2;
+  padding-bottom: 10%;
+}
+
+.things {
+  padding-bottom: 5%;
+}
+
+.things p {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+#mystatus button {
+  border-radius: 1px;
+  padding: 15px 25px;
+  margin-top: 1%;
+  border: 2px solid #222;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+
+#mystatus button:hover, #mystatus button:focus, #mystatus button:active {
+  background-color: #0099cc;
+  color: white;
+  border-color: #0099cc;
+}
+
+#resume button {
+  border-radius: 1px;
+  padding: 15px 25px;
+  margin-top: 1%;
+  border: 2px solid #222;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+
+#resume button:hover, #resume button:focus, #resume button:active {
+  background-color: #0099cc;
+  color: white;
+  border-color: #0099cc;
+}
+
+#resume button a p {
+  text-decoration: none;
+  color: #555;
+  margin-bottom: 0px;
+}
+
+#resume button p {
+  text-decoration: none;
+  color: #555;
+  margin-bottom: 0px;
+}
+
+#resume button a:hover, #resume button a:focus, #resume button a:active {
+  text-decoration: none;
+
+}
+
+#contactme button {
+  border-radius: 1px;
+  padding: 15px 25px;
+  margin-top: 1%;
+  border: 2px solid #FFFF81;
+  font-size: 18px;
+  line-height: 1.3333333;
+  background-color: #006699;
+  color: white;
+}
+
+
+#contactme button:hover, #contactme button:focus {
+  background: #EF4836;
+  border: 2px solid #EF4836;
+  color: white;
+}
+
+
+#contactme {
+  background-color: #006699;
+}
+
+#contactme * {
+  color: white;
+}
+
+#contactme input {
+  color: black;
+}
+
+#contactme textarea {
+  color: black;
+}
+
+#contactme-inside {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.form-group input {
+  border-radius: 1px;
+}
+
+#portfolio .col-md-12 {
+  padding-bottom: 5%;
+}
+
+#mylink .img-responsive {
+  border: 1px groove black;
+}
+
+.return a {
+  text-decoration: none;
+  color: white;
+}
+
+
+@media only screen and (max-width: 750px) {
+    h2 {
+        font-size: 30px;
+    }
+    .starter-template {
+      margin-top: 40%;
+    }
+    .skills {
+      margin-top: 7%;
+    }
+    /*.bottom h4 {
+      margin-bottom: 0px;
+    }*/
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+      border-color: transparent;
+    }
+    .navbar-nav {
+      float: none;
+    }
+    .navbar-nav ul > li .active {
+      color: green;
+    }
+    .navbar-inverse .navbar-toggle {
+      border-color: transparent;
+      background-color: transparent;
+    }
+
+    .navbar-inverse .navbar-toggle:hover {
+      background-color: transparent;
+    };
+
+    /*.navbar-inverse .navbar-toggle .icon-bar{
+      background-color: yellow;
+    }*/
+
+    .changeColor {
+      background-color: #0099cc;
+    }
+
+}
+@media only screen and (max-width: 1024px) {
+    #section-one {
+    background-color: #0099cc;
+    min-height: 0px;
+  }
+
+  .skills .img-responsive {
+    float: left;
+  }
+}
+
+
+
+
+.main {
+  max-width: 870px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 5px;
+  padding-top: 15%;
+}
+.cogwheel {
+  width: 290px;
+  height: 290px;
+  position: relative;
+  animation:scope_cw2 20s linear infinite;
+  float: right;
+}
+.shatter {
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  position: absolute;
+  transition: all 1s ease;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  margin-left: 70px;
+  box-shadow:
+    0 0 0 10px #fff,
+    0 0 0 13px #333,
+    0 0 0 30px #fff,
+    0 0 0 32px #333,
+    0 0 0 35px #fff,
+    0 0 0 50px #333;
+}
+.shatter:before {
+  content:'';
+  left:50%;
+  top: 50%;
+  margin-left: -13px;
+  margin-top: -13px;
+  width: 26px;
+  height: 26px;
+  display: block;
+  position: absolute;
+  box-shadow:65px 0px 0 #333, -65px 0px 0 #333,
+    0 65px 0 #333, 0 -65px 0 #333;
+  border-radius: 20%;
+}
+.shatter:after {
+  content:'';
+  left:50%;
+  top: 50%;
+  margin-left: -13px;
+  margin-top: -13px;
+  width: 26px;
+  height: 26px;
+  display: block;
+  position: absolute;
+  box-shadow:65px 0px 0 #333, -65px 0px 0 #333,
+    0 65px 0 #333, 0 -65px 0 #333;
+  border-radius: 20%;
+  transform: rotate(45deg);
+}
+
+.t1 { left: -5px; top:-5px; transform: rotate(0deg);}
+.t2 { left: 140px; top:-5px; transform: rotate(22.5deg);}
+.t3 { left: 140px; top:140px;  transform: rotate(0deg);}
+.t4 { left: -5px; top:140px;  transform: rotate(22.5deg);}
+
+.cw {animation:scope_cw 20s linear infinite;}
+.ccw {animation:scope_ccw 20s linear infinite;}
+
+
+@keyframes scope_cw
+{
+  from {transform: rotate(22.5deg)}
+  to {transform: rotate(382.5deg)}
+}
+@keyframes scope_ccw
+{
+  from {transform: rotate(0deg)}
