@@ -340,7 +340,7 @@ h3 {
 
 
 
-
+/*
 .main {
   max-width: 870px;
   margin: 0 auto;
@@ -418,4 +418,4 @@ h3 {
 }
 @keyframes scope_ccw
 {
-  from {transform: rotate(0deg)}
+  from {transform: rotate(0deg)}*/
