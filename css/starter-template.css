@@ -21,12 +21,13 @@ h3 {
   line-height: 2;
   font-weight: 700;
 }
-p {
-  line-height: 1.6;
-}
 #portfolio .col-md-8 > p {
   font-size: 1.3em;
   line-height: 1.6;
+}
+p {
+  line-height: 1.6;
+  font-size: 1.2em;
 }
 .navbar {
   background-color: white;
