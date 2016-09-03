@@ -2,91 +2,75 @@ html, body {
   height: 100%;
   font-family: sans-serif, serif;
 } 
-
 body {
   position: relative;
   color: #555;
 }
-
 h1 {
   font-size: 1.8em;
   font-weight: 700;
   line-height: 1.4;
 }
-
 h2 {
   font-size: 1.5em;
   font-weight: 700;
   line-height: 2;
 }
-
 h3 {
   font-size: 1.12em;
   line-height: 2;
   font-weight: 700;
 }
-
 p {
   line-height: 1.6;
 }
-
 #portfolio .col-md-8 > p {
   font-size: 1.3em;
   line-height: 1.6;
 }
-
 .navbar {
   background-color: white;
   margin-bottom: 0px;
   border: white;
 } 
-
 .navbar-nav {
   float: right;
 }
-
 .navbar-inverse .navbar-nav > li > a {
   color: #555;
   font-family: 'Montserrat';
   font-size: 18px;
 }
-
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:active,  
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #0099cc;
+  color: #006699;
 } 
-
 .navbar-inverse .navbar-nav .active {
-  border-bottom: 2px solid #0099cc;
+  border-bottom: 2px solid #006699;
   background-color: white;
 }
-
 .navbar-inverse .navbar-nav>.active>a {
   background-color: white;
   color: #555;
 }
-
 .navbar-inverse .navbar-nav>.active>a:hover {
-  color: #0099cc;
+  color: #006699;
   background-color: white;
 }
-
 .navbar-header .navbar-brand {
   font-family: 'Montserrat';
-  color: #0099cc;
+  color: #006699;
   font-size: 20px;
   line-height: 20px;
 }
 .navbar-header .navbar-brand:hover, .navbar-header .navbar-brand:active, 
 .navbar-header .navbar-brand:focus {
-  color: #0099cc;
+  color: #006699;
 }
-
 #portfolio {
-  padding-top: 45px;
-  padding-bottom: 45px;
+  margin-top: 65px;
+  padding-bottom: 15px;
 }
-
 #portfolio ul {
   padding-left: 0px;
 }
@@ -95,33 +79,21 @@ p {
   display: inline-block;
   margin-right: 15px;
 }
-
 #portfolio ul>li>a>i {
   color: #555;
 }
-
 #portfolio ul>li>a>i:hover {
   color: #006699;
 }
-
 .techsummary {
-  padding-bottom: 45px;
+  padding-bottom: 15px;
 }
-
-#mystatus {
-  padding-top: 45px;
-  padding-bottom: 5px;
-}
-
 #contactme {
-  background-color: #F5F5F5;
-  padding-top: 5px;
-  padding-bottom: 45px;
+  padding-bottom: 15px;
 }
-
 #contactme button {
   border-radius: 1px;
-  padding: 15px 25px;
+  padding: 3px 40px;
   margin-top: 1%;
   border: 2px solid #006699;
   font-size: 18px;
@@ -129,68 +101,65 @@ p {
   background-color: #006699;
   color: white;
 }
-
 #contactme button:hover, #contactme button:focus {
   background: #EF4836;
   border: 2px solid #EF4836;
   color: white;
 }
-
 .form-group input {
   border-radius: 0px;
 }
 
+/*Thank you page*/
+
 .text-center .return {
   border-radius: 0px;
+  margin-top: 3%; 
+  background-color:#006699;
+  padding: 3px 30px;
 }
-
+.text-center .return:hover, .text-center .return:focus {
+  background: #EF4836;
+  border: 2px solid #EF4836;
+  }
 .text-center .return a {
   text-decoration: none;
   color: white;
 }
 
-@media only screen and (max-width: 750px) {
+/*Mobile*/
 
+@media only screen and (max-width: 750px) {
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
       border-color: transparent;
     }
-
     .navbar-nav {
       float: none;
     } 
-
     .navbar-nav ul > li .active {
     }
-
     .navbar-nav ul > li {
       display: inline;
     }
-
     .navbar-inverse .navbar-toggle {
       border-color: transparent;
-      background-color: #0099cc;
+      background-color: transparent;
     }
-
     .navbar-inverse .navbar-toggle:hover {
-      background-color: #0099cc;;
-    };
-
-    .navbar-toggle .icon-bar{
-      background-color: yellow;
+      background-color: transparent;
     }
-    
-
+    .navbar-header .navbar-toggle .icon-bar {
+      background-color: #006699;
+    }
+    #portfolio {
+      margin-top: 0px;
+      padding-top: 55px;
+    }
     .plus {
-      margin-top: 100px;
-    }
-
-    #contactme {
-      margin-bottom: 6em; 
+      margin-top: 120px;/*when toggle change moves .portfolio down*/
     }
 }
 
-@media only screen and (max-width: 1024px) {
 
-}
 
 
